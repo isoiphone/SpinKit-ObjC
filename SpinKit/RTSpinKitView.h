@@ -25,6 +25,7 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, RTSpinKitViewStyle) {
+    RTSpinKitViewStyleCustom,
     RTSpinKitViewStylePlane,
     RTSpinKitViewStyleCircleFlip,
     RTSpinKitViewStyleBounce,
@@ -41,6 +42,8 @@ typedef NS_ENUM(NSInteger, RTSpinKitViewStyle) {
     RTSpinKitViewStyleArc,
     RTSpinKitViewStyleArcAlt
 };
+
+@protocol RTSpinKitAnimating;
 
 /**
  The `RTSpinKitView` defines an activity indicator view. It's interface is very similar
@@ -73,6 +76,13 @@ typedef NS_ENUM(NSInteger, RTSpinKitViewStyle) {
 @property (nonatomic, assign, getter = isStopped) BOOL stopped;
 
 /**
+ Returns an object initialized from data in a given unarchiver.
+
+ @return The initialized SpinKit view using the data in aDecoder;
+ */
+- (instancetype)initWithCoder:(NSCoder *)aDecoder NS_DESIGNATED_INITIALIZER;
+
+/**
  Initializes and returns an activity indicator object.
 
  @param style The style of the activity indicator.
@@ -89,7 +99,21 @@ typedef NS_ENUM(NSInteger, RTSpinKitViewStyle) {
 
  @return The newly-initialized SpinKit view.
  */
--(instancetype)initWithStyle:(RTSpinKitViewStyle)style color:(UIColor*)color;
+-(instancetype)initWithStyle:(RTSpinKitViewStyle)style
+                       color:(UIColor*)color;
+
+/**
+ Initializes and returns an activity indicator object.
+ 
+ @param animator The RTSpinKitAnimating conforming animator object that will perform the animation.
+ @param color The color of the activity indicator.
+ @param spinnerSize The size of the spinner.
+ 
+ @return The newly-initialized SpinKit view.
+ */
+-(instancetype)initWithAnimator:(id<RTSpinKitAnimating>)animator
+                          color:(UIColor*)color
+                    spinnerSize:(CGFloat)spinnerSize;
 
 /**
  Initializes and returns an activity indicator object.
@@ -104,7 +128,7 @@ typedef NS_ENUM(NSInteger, RTSpinKitViewStyle) {
  */
 -(instancetype)initWithStyle:(RTSpinKitViewStyle)style
                        color:(UIColor*)color
-                 spinnerSize:(CGFloat)spinnerSize;
+                 spinnerSize:(CGFloat)spinnerSize NS_DESIGNATED_INITIALIZER;
 
 /**
  Starts the animation of the activity indicator.
