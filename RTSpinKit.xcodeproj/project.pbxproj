@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D4F572C642F7B849E47BE97408652E /* RTSpinKitBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A442AF5145F24CCA854451FF310DC14 /* RTSpinKitBounceAnimation.h */; };
-		16D73F63820D30E4EBEF85476C964FBA /* RTSpinKitCircleFlipAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D36391B3706D22AEAE9E211053C00BA7 /* RTSpinKitCircleFlipAnimation.h */; };
-		1BB11FE7544127069CDF87E413F5CF9D /* RTSpinKitFadingCircleAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CA21CDCD2C6A98CDAD62E7CDC4F431EB /* RTSpinKitFadingCircleAltAnimation.h */; };
+		04D4F572C642F7B849E47BE97408652E /* RTSpinKitBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A442AF5145F24CCA854451FF310DC14 /* RTSpinKitBounceAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		16D73F63820D30E4EBEF85476C964FBA /* RTSpinKitCircleFlipAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D36391B3706D22AEAE9E211053C00BA7 /* RTSpinKitCircleFlipAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1BB11FE7544127069CDF87E413F5CF9D /* RTSpinKitFadingCircleAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CA21CDCD2C6A98CDAD62E7CDC4F431EB /* RTSpinKitFadingCircleAltAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1C44B16D9B5200E4CC4A12D425745081 /* RTSpinKitCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F54E8CE3987028D0BD61A6B458B2F8CB /* RTSpinKitCircleAnimation.m */; };
-		22135D1591048F04A93EF7C4B99A8C25 /* RTSpinKitWaveAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCE178D6F3551B34E79E392343D7F64 /* RTSpinKitWaveAnimation.h */; };
+		22135D1591048F04A93EF7C4B99A8C25 /* RTSpinKitWaveAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCE178D6F3551B34E79E392343D7F64 /* RTSpinKitWaveAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2B47DB025DB0FC3CFA8007D897F60597 /* RTSpinKit9CubeGridAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DC5D683077B8462F8E4D161FBEAB1B /* RTSpinKit9CubeGridAnimation.m */; };
 		2C69EA5B79F02BDAF51D3D1136EAEF5A /* RTSpinKitBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C70DF76EB5F84DD6C451AC59146FCA38 /* RTSpinKitBounceAnimation.m */; };
 		2F11E1C8B184A9388B4ED25CD09ACAD5 /* RTSpinKitThreeBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AEDE7051B4F07FE0CF9E5BCF5B687D /* RTSpinKitThreeBounceAnimation.m */; };
 		3B25EAB9E513D18A41689781A421932B /* RTSpinKitArcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF134AE3929B1A57145B9AC7718366 /* RTSpinKitArcAnimation.m */; };
-		3D01628CAC5A803D89B7B4F571C11B22 /* RTSpinKitAnimating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2837368CB581916C44D19D2E2A262F /* RTSpinKitAnimating.h */; };
-		3FB9C7FE8DC964BA70C132D6DF54A677 /* RTSpinKitArcAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B99763DDA09A7DDC663A0BB80D4E14 /* RTSpinKitArcAltAnimation.h */; };
-		432F475B31832DCCFC1B0C3D3FCFD13E /* RTSpinKitFadingCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B91FBA24318F0A2F305187E01F8D5D /* RTSpinKitFadingCircleAnimation.h */; };
+		3D01628CAC5A803D89B7B4F571C11B22 /* RTSpinKitAnimating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2837368CB581916C44D19D2E2A262F /* RTSpinKitAnimating.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3FB9C7FE8DC964BA70C132D6DF54A677 /* RTSpinKitArcAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B99763DDA09A7DDC663A0BB80D4E14 /* RTSpinKitArcAltAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		432F475B31832DCCFC1B0C3D3FCFD13E /* RTSpinKitFadingCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B91FBA24318F0A2F305187E01F8D5D /* RTSpinKitFadingCircleAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		43BCA6807458E40A35AE86AB1A04E4E5 /* RTSpinKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 210F35976F76350E0CCDE32897D98361 /* RTSpinKitUtils.m */; };
 		67091F8D365EE090897A2F5518E8886D /* RTSpinKitFadingCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D5CF759331593A95732FDC97FC9EC2 /* RTSpinKitFadingCircleAnimation.m */; };
 		7097451482FEA1816BA4A729F4A9A399 /* RTSpinKitWanderingCubesAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F060FB420E6BC5EDDD766EF383819EE5 /* RTSpinKitWanderingCubesAnimation.m */; };
-		729C519579C6CEA0621A8E8B399BFB77 /* RTSpinKitPlaneAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0D592BAB4BDFF77BC38FE5D56ACCE4 /* RTSpinKitPlaneAnimation.h */; };
-		733A58764018E5ECA7E980FB0DF499E5 /* RTSpinKitChasingDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FF90D1186E1839053BE8E713B4B7FE39 /* RTSpinKitChasingDotsAnimation.h */; };
+		729C519579C6CEA0621A8E8B399BFB77 /* RTSpinKitPlaneAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0D592BAB4BDFF77BC38FE5D56ACCE4 /* RTSpinKitPlaneAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		733A58764018E5ECA7E980FB0DF499E5 /* RTSpinKitChasingDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FF90D1186E1839053BE8E713B4B7FE39 /* RTSpinKitChasingDotsAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		754D1DCF3BCDA8298E0C2C201D3CF6F1 /* RTSpinKitPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E23A35136CAA215F351C538AE9256B /* RTSpinKitPulseAnimation.m */; };
-		7B869B488E507D9D9533D960732BC1BD /* RTSpinKit9CubeGridAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5785432C1AFEAA90CEC266293450ED2A /* RTSpinKit9CubeGridAnimation.h */; };
+		7B869B488E507D9D9533D960732BC1BD /* RTSpinKit9CubeGridAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5785432C1AFEAA90CEC266293450ED2A /* RTSpinKit9CubeGridAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		862416FCC8BAB7217FD3B9BC2AF3299F /* RTSpinKitWordPressAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC692424EBCB28805E30F368E2A0E003 /* RTSpinKitWordPressAnimation.m */; };
-		9F1AA23624EC0C79C1C628FAFD186B9D /* RTSpinKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 433539AE1E0950BEB5632C40F05B5044 /* RTSpinKit.h */; };
-		A7AEF4B277F571BD402A1AB69D6C7DF0 /* RTSpinKitCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BCE73793AF4D0BBADD2F2A9DAA2383 /* RTSpinKitCircleAnimation.h */; };
-		AC38FD2B173DECFCE39D6656CAC3877C /* RTSpinKitUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC06673D0A4CDDB9F02D18DC20E2B0F /* RTSpinKitUtils.h */; };
-		B86CF7D3D4036C82C462B2B969BF162A /* RTSpinKitPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D300FF3B3415E14413CE8D46806A3B /* RTSpinKitPulseAnimation.h */; };
-		BA75C1251B42221E456286AE4E971390 /* RTSpinKitWordPressAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF2E5D09C1428547E5263D55AACCFAA /* RTSpinKitWordPressAnimation.h */; };
+		9F1AA23624EC0C79C1C628FAFD186B9D /* RTSpinKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 433539AE1E0950BEB5632C40F05B5044 /* RTSpinKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7AEF4B277F571BD402A1AB69D6C7DF0 /* RTSpinKitCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BCE73793AF4D0BBADD2F2A9DAA2383 /* RTSpinKitCircleAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AC38FD2B173DECFCE39D6656CAC3877C /* RTSpinKitUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC06673D0A4CDDB9F02D18DC20E2B0F /* RTSpinKitUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B86CF7D3D4036C82C462B2B969BF162A /* RTSpinKitPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D300FF3B3415E14413CE8D46806A3B /* RTSpinKitPulseAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BA75C1251B42221E456286AE4E971390 /* RTSpinKitWordPressAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF2E5D09C1428547E5263D55AACCFAA /* RTSpinKitWordPressAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C59F95B39EB1FAFBF5568020B995CC98 /* RTSpinKitChasingDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 867EF9E1AC38CBD0D47EF60D05CC8AD3 /* RTSpinKitChasingDotsAnimation.m */; };
 		CAF65B17E90FB9CA2346974F0E9B896F /* RTSpinKitArcAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2042DBDEC243B711120FC13CCE69A0A6 /* RTSpinKitArcAltAnimation.m */; };
 		CFFF4A96A8F3F53E8485A1D29B09737A /* RTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C948098C733227320592B89578CB0 /* RTSpinKitView.m */; };
-		D026C42CBBD70F63543FE4F31B50AC8B /* RTSpinKitArcAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B56A29FAE90FB67C8FDC4A50B91F71A4 /* RTSpinKitArcAnimation.h */; };
+		D026C42CBBD70F63543FE4F31B50AC8B /* RTSpinKitArcAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B56A29FAE90FB67C8FDC4A50B91F71A4 /* RTSpinKitArcAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D07B9C85A136BE30FBA40FAFB903E1C5 /* RTSpinKitCircleFlipAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CC3D0296B2D81E678EA05866D6C2EC /* RTSpinKitCircleFlipAnimation.m */; };
-		D1ADB0F7478A4B05DC3776E69FBE3B3F /* RTSpinKitThreeBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BE98DBD2B621433F7334A9B1445CC4EF /* RTSpinKitThreeBounceAnimation.h */; };
-		D5D4DC2594C64E20C4A85842F0D75419 /* RTSpinKitWanderingCubesAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E4D636FFFEAC4F3CB0CEF7FCA4FE04 /* RTSpinKitWanderingCubesAnimation.h */; };
+		D1ADB0F7478A4B05DC3776E69FBE3B3F /* RTSpinKitThreeBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BE98DBD2B621433F7334A9B1445CC4EF /* RTSpinKitThreeBounceAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D5D4DC2594C64E20C4A85842F0D75419 /* RTSpinKitWanderingCubesAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E4D636FFFEAC4F3CB0CEF7FCA4FE04 /* RTSpinKitWanderingCubesAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E09D31549C3E2D6C809C2BB82B03610C /* RTSpinKitWaveAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE095D35D7772934B530B0E68A2B2F6 /* RTSpinKitWaveAnimation.m */; };
-		E3AE097F1B9836BC50E984E177010EF1 /* RTSpinKitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A6AB6F60094107ED4723AD92DC39E /* RTSpinKitView.h */; };
+		E3AE097F1B9836BC50E984E177010EF1 /* RTSpinKitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A6AB6F60094107ED4723AD92DC39E /* RTSpinKitView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F18AC6CFF1505C56662789D87EC85A91 /* RTSpinKitPlaneAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FA91FEF32AE3D757231384C71EC84 /* RTSpinKitPlaneAnimation.m */; };
 		F42524058CBD171572F1F09C9F95E58F /* RTSpinKitFadingCircleAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BA5C36CF0CAF04BA2A1DC08682C175 /* RTSpinKitFadingCircleAltAnimation.m */; };
 /* End PBXBuildFile section */
@@ -120,6 +120,14 @@
 			path = RTSpinKit;
 			sourceTree = "<group>";
 		};
+		F1EB5E6329CEE4F112D6B39B0A1B0C8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44952A8E5CA81B63EED0E8728A144783 /* RTSpinKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F39DF66818C03910A600CBF450D4150A /* Animations */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,14 +163,6 @@
 				BC692424EBCB28805E30F368E2A0E003 /* RTSpinKitWordPressAnimation.m */,
 			);
 			path = Animations;
-			sourceTree = "<group>";
-		};
-		F1EB5E6329CEE4F112D6B39B0A1B0C8E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				44952A8E5CA81B63EED0E8728A144783 /* RTSpinKit.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
