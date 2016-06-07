@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0C7D4461D076589008CDC73"
+               BlueprintIdentifier = "6C6BCB6A12E0310BD5411837DBF1BCF6"
                BuildableName = "RTSpinKit.framework"
                BlueprintName = "RTSpinKit"
                ReferencedContainer = "container:RTSpinKit.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0C7D4461D076589008CDC73"
+            BlueprintIdentifier = "6C6BCB6A12E0310BD5411837DBF1BCF6"
             BuildableName = "RTSpinKit.framework"
             BlueprintName = "RTSpinKit"
             ReferencedContainer = "container:RTSpinKit.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0C7D4461D076589008CDC73"
+            BlueprintIdentifier = "6C6BCB6A12E0310BD5411837DBF1BCF6"
             BuildableName = "RTSpinKit.framework"
             BlueprintName = "RTSpinKit"
             ReferencedContainer = "container:RTSpinKit.xcodeproj">
