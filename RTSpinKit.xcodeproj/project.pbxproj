@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04D4F572C642F7B849E47BE97408652E /* RTSpinKitBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A442AF5145F24CCA854451FF310DC14 /* RTSpinKitBounceAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0FB2425F6C4DAAC940195A268DBD52B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864484E8043CEF28035CF32FD65EED83 /* Foundation.framework */; };
 		16D73F63820D30E4EBEF85476C964FBA /* RTSpinKitCircleFlipAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D36391B3706D22AEAE9E211053C00BA7 /* RTSpinKitCircleFlipAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1BB11FE7544127069CDF87E413F5CF9D /* RTSpinKitFadingCircleAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CA21CDCD2C6A98CDAD62E7CDC4F431EB /* RTSpinKitFadingCircleAltAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1C44B16D9B5200E4CC4A12D425745081 /* RTSpinKitCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F54E8CE3987028D0BD61A6B458B2F8CB /* RTSpinKitCircleAnimation.m */; };
@@ -16,18 +17,20 @@
 		2C69EA5B79F02BDAF51D3D1136EAEF5A /* RTSpinKitBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C70DF76EB5F84DD6C451AC59146FCA38 /* RTSpinKitBounceAnimation.m */; };
 		2F11E1C8B184A9388B4ED25CD09ACAD5 /* RTSpinKitThreeBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AEDE7051B4F07FE0CF9E5BCF5B687D /* RTSpinKitThreeBounceAnimation.m */; };
 		3B25EAB9E513D18A41689781A421932B /* RTSpinKitArcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF134AE3929B1A57145B9AC7718366 /* RTSpinKitArcAnimation.m */; };
+		3BD8EDF23608C3519F118E0FE2EFFEFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF0E5D944D58F44E3F7537467747B5E /* UIKit.framework */; };
 		3D01628CAC5A803D89B7B4F571C11B22 /* RTSpinKitAnimating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2837368CB581916C44D19D2E2A262F /* RTSpinKitAnimating.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3FB9C7FE8DC964BA70C132D6DF54A677 /* RTSpinKitArcAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B99763DDA09A7DDC663A0BB80D4E14 /* RTSpinKitArcAltAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		432F475B31832DCCFC1B0C3D3FCFD13E /* RTSpinKitFadingCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B91FBA24318F0A2F305187E01F8D5D /* RTSpinKitFadingCircleAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		43BCA6807458E40A35AE86AB1A04E4E5 /* RTSpinKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 210F35976F76350E0CCDE32897D98361 /* RTSpinKitUtils.m */; };
 		67091F8D365EE090897A2F5518E8886D /* RTSpinKitFadingCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D5CF759331593A95732FDC97FC9EC2 /* RTSpinKitFadingCircleAnimation.m */; };
 		7097451482FEA1816BA4A729F4A9A399 /* RTSpinKitWanderingCubesAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F060FB420E6BC5EDDD766EF383819EE5 /* RTSpinKitWanderingCubesAnimation.m */; };
+		727311DDD7A8A0A7175AF06DA0FE65CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6212AAD2273B1C858727DDA1E7C760EE /* CoreGraphics.framework */; };
 		729C519579C6CEA0621A8E8B399BFB77 /* RTSpinKitPlaneAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0D592BAB4BDFF77BC38FE5D56ACCE4 /* RTSpinKitPlaneAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		733A58764018E5ECA7E980FB0DF499E5 /* RTSpinKitChasingDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FF90D1186E1839053BE8E713B4B7FE39 /* RTSpinKitChasingDotsAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		754D1DCF3BCDA8298E0C2C201D3CF6F1 /* RTSpinKitPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E23A35136CAA215F351C538AE9256B /* RTSpinKitPulseAnimation.m */; };
 		7B869B488E507D9D9533D960732BC1BD /* RTSpinKit9CubeGridAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5785432C1AFEAA90CEC266293450ED2A /* RTSpinKit9CubeGridAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		862416FCC8BAB7217FD3B9BC2AF3299F /* RTSpinKitWordPressAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC692424EBCB28805E30F368E2A0E003 /* RTSpinKitWordPressAnimation.m */; };
-		9F1AA23624EC0C79C1C628FAFD186B9D /* RTSpinKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 433539AE1E0950BEB5632C40F05B5044 /* RTSpinKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9F1AA23624EC0C79C1C628FAFD186B9D /* RTSpinKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 433539AE1E0950BEB5632C40F05B5044 /* RTSpinKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7AEF4B277F571BD402A1AB69D6C7DF0 /* RTSpinKitCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BCE73793AF4D0BBADD2F2A9DAA2383 /* RTSpinKitCircleAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		AC38FD2B173DECFCE39D6656CAC3877C /* RTSpinKitUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC06673D0A4CDDB9F02D18DC20E2B0F /* RTSpinKitUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B86CF7D3D4036C82C462B2B969BF162A /* RTSpinKitPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D300FF3B3415E14413CE8D46806A3B /* RTSpinKitPulseAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -61,10 +64,13 @@
 		4F0D592BAB4BDFF77BC38FE5D56ACCE4 /* RTSpinKitPlaneAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitPlaneAnimation.h; sourceTree = "<group>"; };
 		5785432C1AFEAA90CEC266293450ED2A /* RTSpinKit9CubeGridAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKit9CubeGridAnimation.h; sourceTree = "<group>"; };
 		59870654D3B1F892B8AF26DF2E3C067A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF0E5D944D58F44E3F7537467747B5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6212AAD2273B1C858727DDA1E7C760EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		62BA5C36CF0CAF04BA2A1DC08682C175 /* RTSpinKitFadingCircleAltAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitFadingCircleAltAnimation.m; sourceTree = "<group>"; };
 		77CC3D0296B2D81E678EA05866D6C2EC /* RTSpinKitCircleFlipAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitCircleFlipAnimation.m; sourceTree = "<group>"; };
 		7B2A6AB6F60094107ED4723AD92DC39E /* RTSpinKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitView.h; sourceTree = "<group>"; };
 		80AEDE7051B4F07FE0CF9E5BCF5B687D /* RTSpinKitThreeBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitThreeBounceAnimation.m; sourceTree = "<group>"; };
+		864484E8043CEF28035CF32FD65EED83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		867EF9E1AC38CBD0D47EF60D05CC8AD3 /* RTSpinKitChasingDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitChasingDotsAnimation.m; sourceTree = "<group>"; };
 		97D300FF3B3415E14413CE8D46806A3B /* RTSpinKitPulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitPulseAnimation.h; sourceTree = "<group>"; };
 		97E23A35136CAA215F351C538AE9256B /* RTSpinKitPulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitPulseAnimation.m; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727311DDD7A8A0A7175AF06DA0FE65CD /* CoreGraphics.framework in Frameworks */,
+				0FB2425F6C4DAAC940195A268DBD52B5 /* Foundation.framework in Frameworks */,
+				3BD8EDF23608C3519F118E0FE2EFFEFF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +109,7 @@
 		4CB9AC82B085C242212324DDDC7E0327 = {
 			isa = PBXGroup;
 			children = (
+				279C4F130C9711EC8FC7A2788730BB9A /* Frameworks */,
 				F1EB5E6329CEE4F112D6B39B0A1B0C8E /* Products */,
 				D9F903763B6A57CEE366C37AFB828F73 /* RTSpinKit */,
 			);
@@ -117,6 +127,17 @@
 				7B2A6AB6F60094107ED4723AD92DC39E /* RTSpinKitView.h */,
 				4D4C948098C733227320592B89578CB0 /* RTSpinKitView.m */,
 			);
+			path = RTSpinKit;
+			sourceTree = "<group>";
+		};
+		279C4F130C9711EC8FC7A2788730BB9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6212AAD2273B1C858727DDA1E7C760EE /* CoreGraphics.framework */,
+				864484E8043CEF28035CF32FD65EED83 /* Foundation.framework */,
+				5FF0E5D944D58F44E3F7537467747B5E /* UIKit.framework */,
+			);
+			name = Frameworks;
 			path = RTSpinKit;
 			sourceTree = "<group>";
 		};
@@ -329,13 +350,21 @@
 		8BB0F08259117B321A09EA1EB4870870 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					armv7,
+				);
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RTSpinKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = me.rtorres.RTSpinKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -393,13 +422,21 @@
 		D46B72AF95ED7DD04427AB3DAC06D60E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					armv7,
+				);
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RTSpinKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = me.rtorres.RTSpinKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
